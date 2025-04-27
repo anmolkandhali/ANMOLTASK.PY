@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNT3KC4pVQ1bPR5fSeKXK39",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/anmolkandhali/ANMOLTASK.PY/blob/main/week2%20task\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-avRQEuKmUL2",
+        "outputId": "857e94ff-ab51-48d4-ebe2-c1776adae5f0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Factorial of 5 is 120\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "class FactorialCalculator:\n",
+        "    def calculate(self, num):\n",
+        "        result = 1\n",
+        "        i = 1\n",
+        "        while i <= num:\n",
+        "            result *= i\n",
+        "            i += 1\n",
+        "        return result\n",
+        "\n",
+        "factorial_calculator = FactorialCalculator()\n",
+        "\n",
+        "number = 5\n",
+        "print(f\"Factorial of {number} is {factorial_calculator.calculate(number)}\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "osURly98mck6"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
